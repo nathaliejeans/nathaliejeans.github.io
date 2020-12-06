@@ -1,4 +1,4 @@
-# nathaliejeans.github.io
+# Handwritten Digit Recognition Algorithm
+nathaliejeans.github.io
 
-# MACHINE LEARNING
-Handwritten Digit Recognition Algorithm
+With a validation loss of roughly 0.1 and accuracy of >0.99
