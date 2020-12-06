@@ -1,4 +1,4 @@
 # nathaliejeans.github.io
 
-MACHINE LEARNING
+# MACHINE LEARNING
 Handwritten Digit Recognition Algorithm
