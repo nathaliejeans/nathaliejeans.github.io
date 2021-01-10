@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#plant").click(() => window.open("https://github.com/nathaliejeans/verticalfarming", "_blank"));
-    $("#stationary").click(() => window.open("https://github.com/digit-recognition", "_blank"));
+    $("#stationary").click(() => window.open("https://github.com/nathaliejeans/digit-recognition", "_blank"));
     $("#money").click(() => window.open("projects/educents.pdf", "_blank"));
     $("#table").click(() => window.open("https://github.com/nathaliejeans/employee-analyst", "_blank"));
     $("#cup").click(() => window.open("https://github.com/nathaliejeans/yolov3", "_blank"));
