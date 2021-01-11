@@ -549,6 +549,26 @@ opacity: 0;
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .writing a {
+    margin-left: 0px;
+    font-size: 0.9rem;
+    text-align: center;
+    display: block;
+  }
+  .writing h4 {
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+  }
+  .writing p {
+    margin-left: 0px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .menu {
     flex-direction: column;
