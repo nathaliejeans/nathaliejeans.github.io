@@ -30,8 +30,7 @@
 
 #media a,
 #about a,
-#projects a,
-.about a {
+#projects a {
   font-family: inherit;
   color: rgb(206, 190, 174);
   border: none;
@@ -92,6 +91,17 @@
 
 .about p {
     white-space: pre-line;
+}
+
+.about a {
+  color: rgb(177, 162, 148);
+  font-family: inherit;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 .button button {
