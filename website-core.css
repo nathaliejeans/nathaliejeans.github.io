@@ -408,6 +408,17 @@ opacity: 0;
   color: rgb(104, 104, 104);
 }
 
+.media-content h5 {
+  margin-left: 20%;
+  margin-top: 50px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: rgb(206, 190, 174);
+  letter-spacing: 0.75px;
+  margin-bottom: 20px;
+}
+
 .media-content h1 {
   margin-left: 20%;
   margin-top: 7%;
