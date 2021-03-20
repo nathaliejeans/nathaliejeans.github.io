@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $("#cs-academy").click(() => window.open("https://nathaliejeans.github.io/cs-academy.html"));
+    $("#cs-academy").click(() => window.open("https://nathaliejeans.github.io/cs-academy.html", "_self"));
     $("#plant").click(() => window.open("https://github.com/nathaliejeans/verticalfarming", "_blank"));
     $("#stationary").click(() => window.open("https://github.com/nathaliejeans/digit-recognition", "_blank"));
     $("#money").click(() => window.open("projects/educents.pdf", "_blank"));
