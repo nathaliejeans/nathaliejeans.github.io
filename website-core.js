@@ -1,9 +1,11 @@
 $(document).ready(function () {
+    $("#cs-academy").click(() => window.open("https://nathaliejeans.github.io/cs-academy.html"));
     $("#plant").click(() => window.open("https://github.com/nathaliejeans/verticalfarming", "_blank"));
     $("#stationary").click(() => window.open("https://github.com/nathaliejeans/digit-recognition", "_blank"));
     $("#money").click(() => window.open("projects/educents.pdf", "_blank"));
     $("#table").click(() => window.open("https://github.com/nathaliejeans/employee-analyst", "_blank"));
     $("#cup").click(() => window.open("https://github.com/nathaliejeans/yolov3", "_blank"));
+
 
     $("#linkedin").click(() => window.open("https://www.linkedin.com/in/nathaliejeans/", "_blank"));
     $("#medium").click(() => window.open("https://medium.com/@nathaliejeans", "_blank"));

@@ -28,9 +28,77 @@
   margin-top: 100px;
 }
 
+.side-by-side {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: left;
+  margin: 0 20%;
+  margin-top: 20px;
+}
+
+.back-button {
+  display: block;
+  align-items: left;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.project-body h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 0.950rem;
+    color: rgb(206, 190, 174);
+    letter-spacing: 0.75px;
+}
+
+.project-body h2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgb(206, 190, 174);
+  letter-spacing: 0.75px;
+}
+
+.project-body p {
+  font-family: inherit;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 0.95rem;
+  line-height: 140%;
+  color: rgb(104, 104, 104);
+}
+
+.cs-academy-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  margin-top: 20px;
+}
+
 #media a,
 #about a,
-#projects a {
+#projects a, 
+#home a {
   font-family: inherit;
   color: rgb(206, 190, 174);
   border: none;
@@ -43,6 +111,7 @@
 #media a:hover,
 #about a:hover,
 #projects a:hover,
+#home a:hover,
 .about a:hover {
   font-family: inherit;
   color: rgb(97, 89, 81);
@@ -211,7 +280,40 @@ opacity: 0;
   background-color:rgb(206, 190, 174);
 }
 
+/* REGULAR TEXTS ON MEDIA PAGE */
+.media-paragraph p {
+  font-family: inherit;
+  text-align: left;
+  margin-left: 20%;
+  margin-right:20%;
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 0.95rem;
+  line-height: 140%;
+  color: rgb(104, 104, 104);
+}
+
+.media-intro p {
+  font-family: inherit;
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 40%;
+  margin-right:20%;
+  margin-bottom: 30px;
+  font-weight: 100;
+  font-size: 0.95rem;
+  line-height: 140%;
+  color: rgb(104, 104, 104);
+}
+
 /* IMAGES FOR PROJECTS PAGE */
+
+#cs-academy {
+  background-image: url('images/cs-academy.jpg');
+}
+#cs-academy:hover{
+  background:rgb(206, 190, 174);
+}
 
 #plant {
   background-image: url('images/plant.jpg');
@@ -292,12 +394,6 @@ opacity: 0;
   background:rgb(206, 190, 174);
 }
 
-@media only screen and (min-width: 768px) {
-  .project-container {
-    width: calc((100% - 2%) / 2);
-  }
-}
-
 .text {
   text-align: center;
   margin-bottom: 5%;
@@ -319,7 +415,7 @@ opacity: 0;
   font-weight: 600;
   font-size: 1.25rem;
   color: rgb(206, 190, 174);
-  letter-spacing: 2px;
+  letter-spacing: 0.75px;
   margin-bottom: 50px;
 }
 
@@ -397,7 +493,7 @@ opacity: 0;
   font-weight: 800; 
   color: rgb(206, 190, 174);
   cursor: default;
-  letter-spacing: 1px;
+  letter-spacing: 0.75px;
   }
 
 .intro p {
@@ -417,6 +513,32 @@ opacity: 0;
   width:375px;
   height:400px;
   float:left;
+}
+
+.headshot-media {
+  display: block;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.headshot-media-center {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.signature {
+  display: block;
+  margin-top: 2px;
+  width: 275px;
+  height: 100px;
+  float: right;
+  margin-left: auto;
+  margin-right: 150px;
 }
 
 .footer {
@@ -504,6 +626,10 @@ opacity: 0;
     align-items: left;
     margin-left: 20%;
   }
+
+  .media-intro p {
+    margin-left: 40%;
+  }
 }
 
 @media only screen and (max-width: 1390px) {
@@ -558,7 +684,29 @@ opacity: 0;
     margin-left: 20%;
     margin-right: 20%;
   }
+
+  .headshot-media-center {
+      margin-top: 50px;
+      display: block;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      align-content: center;
+  }
+
+  .media-intro p {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
+
+@media only screen and (min-width: 768px) {
+  .project-container {
+    width: calc((100% - 2%) / 2);
+  }
+
+  }
 
 @media only screen and (max-width: 700px) {
   .writing a {
@@ -581,6 +729,7 @@ opacity: 0;
   .footer {
     margin: 0 30%;
   }
+
 }
 
 @media only screen and (max-width: 425px) {
